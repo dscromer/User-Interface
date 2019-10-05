@@ -64,3 +64,51 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a {
+	color: gray;
+	display: inline-block;
+	width: 12.5%;
+	text-decoration: none;
+	margin-top: 50px;
+
+}
+
+.container {
+	width: 1024px;
+	margin: 0px auto;
+}
+
+header {
+	width: 100%;
+	margin-top: 100px;
+
+}
+
+.fifty {
+	width: 49.5%;
+	padding: 50px;
+	display: inline-block;
+	
+}
+
+.circle {
+	display: inline-block;
+}
+
+h1 {
+	font-size: 64px;
+	text-align: center;
+}
+
+.call-to-action {
+	text-align: center;
+}
+
+.line {
+	border-bottom: 2px solid black;
+}
+
+.top-content {
+	width: 100%;
+}
