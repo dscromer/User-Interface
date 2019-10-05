@@ -54,24 +54,60 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Lobster', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+nav {
+	background: dodgerblue;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	width: 1024px;
+	opacity: 1;
+	z-index: 2;
+}
 
 nav a {
-	color: gray;
+	color: black;
 	display: inline-block;
 	width: 12.5%;
 	text-decoration: none;
-	margin-top: 50px;
+	margin-top: 30px;
+	padding: 10px;
 
+}
+
+a:hover {
+	animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		background: dodgerblue;
+		color: black;
+	}
+
+	50% {
+		background: darkblue;
+		color: white;
+	}
+
+	100% {
+		background: dodgerblue;
+		color: black;
+	}
+}
+
+body {
+	margin-top: 100px;
+	z-index: 1;
 }
 
 .container {
@@ -105,8 +141,11 @@ h1 {
 	font-size: 64px;
 	text-align: center;
 	font-size:5em;
-	text-transform: uppercase;
 	word-spacing: 100vw;
+}
+
+h2 {
+	font-size: 20px;
 }
 
 .call-to-action {
