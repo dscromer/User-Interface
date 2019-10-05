@@ -93,6 +93,10 @@ header {
 	
 }
 
+.pull-right {
+	text-align: right;
+}
+
 .circle {
 	display: inline-block;
 }
@@ -120,6 +124,8 @@ h1 {
 
 #center {
 	padding-bottom: 50px;
+	position: relative;
+	top: -50px;
 }
 
 .middle-img {
